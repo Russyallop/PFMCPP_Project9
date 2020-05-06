@@ -10,15 +10,6 @@ Purpose:  This project will teach you about variadic templates and recursive tem
 1) read Instructions.cpp
 
 Make the following program work, which makes use of Variadic templates and Recursion
-
-Once it's working: 
-Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
-Make a pull request after you make your first commit and pin the pull request link to our DM thread.
-
-send me a DM to check your pull request
-
- Wait for my code review.
  */
 
 #include <iostream>
@@ -56,6 +47,20 @@ struct Wrapper
         std::cout << "Wrapper(" << typeid(val).name() << ")" << std::endl; 
     }
 };
+
+/*
+ MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
+
+ Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
+ 
+ If you didn't already: 
+    Make a pull request after you make your first commit
+    pin the pull request link and this repl.it link to our DM thread in a single message.
+
+ send me a DM to review your pull request when the project is ready for review.
+
+ Wait for my code review.
+ */
 
 int main()
 {
